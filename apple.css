@@ -451,29 +451,22 @@
 
 .scrolls {
   width: 1920px;
-  height: 440;
+  height: 668px;
+  scroll-snap-type: x mandatory;
   display: flex;
-  overflow: scroll;
   gap: 10px;
   padding-top: 12px;
-  scroll-snap-type: x mandatory;
   align-items: center;
   padding-bottom: 12px;
-}
-
-.pictures {
-  height: 1250px;
-  height: 668px;
-  scroll-snap-align: center;
-  flex-shrink: 0;
-  display: flex;
-  gap: 10px;
+  overflow: scroll;
 }
 
 .scrolls img {
-  width: 1250;
-  height: 668;
+  width: 1250px;
+  height: 668px;
   object-fit: cover;
+  flex-shrink: 0;
+  scroll-snap-align: center;
 }
 
 .lastscrolls {
