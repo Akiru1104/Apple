@@ -401,6 +401,8 @@ body {
   opacity: 1;
   box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
   flex-shrink: 0;
+  margin-top: 53px;
+  margin-left: 30px;
 }
 
 .colormix {
@@ -419,9 +421,6 @@ body {
   line-height: 32px;
   letter-spacing: 0.2px;
   vertical-align: middle;
-  margin-right: 100px;
-  margin-top: 40px;
-  margin-left: 20px;
 }
 
 .a1 {
