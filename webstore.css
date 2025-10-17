@@ -1,10 +1,11 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 body {
   background-color: rgba(245, 245, 247, 1);
-  width: 1920px;
+  /* width: 1920px; */
+  margin: 0;
 }
 .header1 {
   height: 44px;
@@ -55,10 +56,18 @@ body {
 
 .header3 {
   display: flex;
-  margin-bottom: 80px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .rainbow-bg {
   margin-bottom: 80px;
+  width: 100%;
 }
 
 .roundpic {
@@ -94,7 +103,7 @@ body {
 }
 .contacttext2 {
   gap: 16px;
-  padding-left: 50px;
+  padding-left: 40px;
   padding-top: 10px;
 }
 
@@ -106,15 +115,12 @@ body {
   display: flex;
   flex-direction: column;
 }
-.title {
-  display: flex;
-}
+
 .contact {
-  width: 1920px;
   height: 100px;
   display: flex;
   flex-direction: column;
-  /* padding-left: 1000px; */
+  align-items: center;
 }
 
 .color {
@@ -132,13 +138,14 @@ body {
   line-height: 52.01px;
   font-family: "Inter", sans-serif;
   color: rgba(110, 110, 115, 1);
-  display: flex;
+  white-space: nowrap;
 }
 .line {
   display: flex;
   justify-content: center;
   align-content: center;
-  gap: 20px;
+  gap: 24px;
+  width: 1920px;
 }
 .line p {
   font-size: 14px;
@@ -166,18 +173,24 @@ body {
   height: 558px;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 24px;
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 60px;
 }
 
 .textset {
   display: flex;
-  gap: 4px;
+  gap: 10px;
 }
+
 .scroll1 {
   width: 1920px;
   height: 558px;
   gap: 24px;
   display: flex;
+  flex-shrink: 0;
+  overflow-y: scroll;
 }
 
 .rainbowtexts {
@@ -223,7 +236,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 30px;
-  padding-top: 55px;
+  padding-top: 60px;
   text-align: start;
   gap: 12px;
 }
@@ -306,6 +319,9 @@ body {
   gap: 24px;
   display: flex;
   flex-direction: column;
+  padding-left: 140px;
+  padding-top: 60px;
+  flex-shrink: 0;
 }
 
 .scroll2 {
@@ -320,6 +336,14 @@ body {
 }
 
 .airpodmax {
+  width: 313px;
+  height: 500px;
+  opacity: 1;
+  border-radius: 18px;
+  box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 
 .pbox {
@@ -380,7 +404,30 @@ body {
   display: flex;
   flex-direction: column;
   padding-left: 28px;
-  padding-top: 60px;
+  padding-top: 30px;
+}
+
+.boxtext1 {
+  width: 257px;
+  height: 109px;
+  opacity: 1;
+  gap: 28px;
+  top: 359px;
+  left: 28px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 28px;
+  padding-top: 70px;
+}
+.boxtext2 {
+  width: 257px;
+  height: 109px;
+  opacity: 1;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 28px;
+  padding-top: 45px;
 }
 
 .settext {
@@ -395,20 +442,19 @@ body {
   background-image: url(./personal1.jpg);
   background-position: center;
   background-size: cover;
-  width: 313px;
+  width: 400px;
   height: 500px;
   border-radius: 18px;
   opacity: 1;
   box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
   flex-shrink: 0;
-  margin-top: 53px;
-  margin-left: 30px;
 }
 
 .colormix {
   display: flex;
   justify-content: center;
   gap: 8px;
+  padding-top: 30px;
 }
 .colors {
   width: 12px;
@@ -421,13 +467,15 @@ body {
   line-height: 32px;
   letter-spacing: 0.2px;
   vertical-align: middle;
+  padding-left: 30px;
+  padding-top: 53px;
 }
 
-.a1 {
+.airpodbox {
   background-image: url(./a1.jpg);
   background-position: center;
   background-size: cover;
-  width: 313px;
+  width: 400px;
   height: 500px;
   border-radius: 18px;
   opacity: 1;
@@ -445,8 +493,8 @@ body {
   padding-top: 40px;
 }
 .scroll3 {
-  /* width: 100%;
-  height: 558px; */
+  width: 100%;
+  height: 558px;
   gap: 20px;
   display: flex;
   flex-direction: row;
@@ -456,10 +504,14 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding-left: 140px;
+  flex-shrink: 0;
+  padding-top: 60px;
 }
 .scroll3-cards-container {
   display: flex;
   gap: 20px;
+  overflow-y: hidden;
 }
 .only {
   width: 100%;
@@ -467,6 +519,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-right: 140px;
+  padding-left: 140px;
+  gap: 24px;
+  flex-shrink: 0;
 }
 
 .card1 {
@@ -550,12 +606,11 @@ body {
 .card3text2 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
-  font-style: Bold;
   font-size: 25px;
   line-height: 32px;
   letter-spacing: 0px;
   vertical-align: middle;
-  padding-top: 54px;
+  padding-top: 10px;
   padding-left: 30px;
 }
 .card4 {
@@ -569,6 +624,22 @@ body {
   background-size: cover;
 }
 
+.experince {
+  width: 100%;
+  height: 558px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 140px;
+  padding-left: 140px;
+  padding-top: 60px;
+  gap: 24px;
+  flex-shrink: 0;
+}
+.none {
+  display: flex;
+  flex-direction: column;
+}
 .z1 {
   width: 480px;
   height: 500px;
@@ -649,6 +720,7 @@ body {
 .zboxall {
   display: flex;
   gap: 20px;
+  overflow-y: hidden;
 }
 
 .z3 {
@@ -704,9 +776,24 @@ body {
   padding-top: 10px;
 }
 
+.special {
+  width: 100%;
+  height: 558px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 140px;
+  padding-left: 140px;
+  padding-top: 60px;
+  flex-shrink: 0;
+}
+
 .xboxall {
   display: flex;
   gap: 20px;
+  padding-top: 24px;
+  flex-shrink: 0;
+  overflow-y: scroll;
 }
 
 .x1 {
@@ -887,9 +974,14 @@ body {
   padding-left: 140px;
   gap: 24px;
   opacity: 1;
+  padding-top: 80px;
+  padding-bottom: 30px;
 }
 .footerbox {
   display: flex;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  gap: 8px;
 }
 .quick {
   font-weight: 700;
@@ -918,20 +1010,37 @@ body {
   border-radius: 999px;
   border-width: 1px;
 }
-.fa-light {
+.arrow {
   width: 8px;
   height: 8px;
 }
 .c1 {
   display: flex;
-  width: 125;
-  height: 40;
-  padding-top: 10px;
-  padding-right: 12px;
-  padding-bottom: 10px;
-  padding-left: 12px;
-  gap: 8px;
+  justify-content: center;
+  align-items: center;
   opacity: 1;
   border-radius: 999px;
   border-width: 1px;
+  border: 1px solid rgba(29, 29, 31, 1);
+}
+.order {
+  width: 125px;
+  height: 40px;
+  padding-right: 12px;
+}
+.shopping {
+  width: 137px;
+  height: 40px;
+  padding-right: 12px;
+}
+
+.returns {
+  width: 91px;
+  height: 40px;
+  padding-right: 12px;
+}
+.your {
+  width: 114px;
+  height: 40px;
+  padding-right: 12px;
 }
