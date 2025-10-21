@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header1 {
   width: 100%;
   height: 44px;
@@ -19,6 +23,16 @@
   vertical-align: middle;
   background-color: rgba(245, 245, 247, 0.8);
   color: rgba(0, 0, 0, 1);
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.menu {
+  display: none;
 }
 .Allone a {
   text-decoration: none;
@@ -50,7 +64,6 @@
   align-items: center;
 }
 .header2 {
-  width: 100%;
   height: 52px;
   background-color: #ffffff;
   display: flex;
@@ -130,7 +143,6 @@
   gap: 16px;
 }
 .learnmore1 {
-  width: 83px;
   height: 20px;
   border: none;
   background-color: #0071e3;
@@ -272,6 +284,27 @@
   gap: 12px;
   flex: 1;
 }
+.ipadver {
+  display: none;
+}
+.onlyipad4-1 {
+  display: none;
+}
+.onlyipad4-2 {
+  display: none;
+}
+.onlyipad4-3 {
+  display: none;
+}
+.onlyipad4-4 {
+  display: none;
+}
+.onlyipad4-5 {
+  display: none;
+}
+.onlyipad4-6 {
+  display: none;
+}
 .scroll4-1 {
   background: url(./ipad\ figure.jpg);
   background-position: center;
@@ -299,7 +332,6 @@
 }
 .scrollipadtext {
   height: 172px;
-  width: 405px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -310,13 +342,14 @@
 
 .scroll1texts4-2 {
   height: 172px;
-  width: 405px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 16px;
-  padding-top: 55px;
+  gap: 10px;
+  padding-top: 40px;
+}
+.watchtext {
+  gap: 3px;
 }
 .scroll4-2 {
   background: url(./apple\ watch.jpg);
@@ -332,7 +365,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 152px;
   height: 39px;
 }
 .logo {
@@ -352,7 +384,6 @@
 
 .titleset {
   height: 39px;
-  width: 152px;
   display: flex;
   gap: 8px;
   justify-content: center;
@@ -371,7 +402,7 @@
 .sets {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
 }
 .classic {
   font-size: 18px;
@@ -393,6 +424,7 @@
   justify-content: center;
   align-self: center;
   align-items: center;
+  gap: 8px;
   padding-top: 40px;
 }
 
@@ -405,27 +437,24 @@
   align-self: center;
   align-items: center;
 }
+
 .tradetext {
   font-size: 32px;
   font-weight: 700;
   font-family: "Inter", sans-serif;
   gap: 4px;
   line-height: 100%;
-  letter-spacing: 0px;
   text-align: center;
   vertical-align: middle;
 }
 
-.tardetext1 {
+.tradetext1 {
   font-size: 18px;
   font-weight: 400;
   font-family: "Inter", sans-serif;
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  letter-spacing: 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 .getyour {
@@ -464,6 +493,7 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  padding-bottom: 50px;
 }
 .airpodtext {
   font-size: 36px;
@@ -488,6 +518,33 @@
   justify-items: center;
 }
 
+.scroll1texts4-5 {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 40px;
+}
+
+.atextbox4-5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.btextbox4-5 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  vertical-align: middle;
+}
+
 .scroll4-6 {
   background: url(./credit\ card.jpg);
   background-position: center;
@@ -499,32 +556,40 @@
   justify-content: flex-start;
 }
 .scroll1texts4-6 {
-  width: 322px;
   height: 149px;
   flex-direction: column;
   justify-content: center;
-  justify-items: center;
-  align-self: center;
   padding-top: 40px;
   gap: 10px;
   display: flex;
   align-items: center;
-  margin-top: 20px;
   text-align: center;
 }
 
-.cardtext {
-  width: 322px;
-  height: 149px;
-  gap: 16px;
+.titlesetcard {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  align-content: center;
-  align-self: center;
+  gap: 10px;
 }
 
+.cardtext {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  vertical-align: middle;
+}
+.cardmaintext {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  text-align: center;
+  vertical-align: middle;
+}
 .buy2 {
   width: 112px;
   height: 40px;
@@ -543,32 +608,48 @@
   vertical-align: center;
   align-items: center;
   gap: 16px;
-  padding-top: 12px;
-  padding-right: 20px;
-  padding-bottom: 12px;
-  padding-left: 20px;
 }
-
+.images{
+  display: flex;
+  gap: 12px;
+}
 .scrolls {
-  width: 100%;
-  height: 668px;
   scroll-snap-type: x mandatory;
   display: flex;
+  flex-direction: column;
   gap: 10px;
   padding-top: 12px;
   align-items: center;
   padding-bottom: 12px;
   overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 .scrolls img {
-  width: 1250px;
   height: 668px;
   object-fit: cover;
   flex-shrink: 0;
   scroll-snap-align: center;
 }
-
+.pic1 {
+  position: relative;
+}
+.dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 5px;
+}
+.dot { */
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  left: 7px;
+  opacity: 1;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.42);
+}
 .lastscrolls {
   display: flex;
   gap: 10px;
@@ -585,7 +666,16 @@
   .header1 {
     width: 100%;
     height: 48px;
+    display: flex;
+    justify-content: space-between;
   }
+  .header1 p {
+    display: none;
+  }
+  .header1 .store {
+    display: none;
+  }
+
   .header2 {
     width: 100%;
     display: flex;
@@ -619,50 +709,289 @@
     width: 100%;
     display: flex;
   }
+  .scroll4- {
+    display: flex;
+  }
+  .scroll4-- {
+    display: flex;
+  }
+
   .scroll4-1 {
-    background-image: url(./ipadipad.jpg);
-    flex: 1;
+    background-image: url(./ipad\ airpod.jpg);
+    flex-grow: 1;
     height: 490px;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: end;
   }
   .scroll4-2 {
-    background-image: url(./ipadipad.jpg);
-    flex: 1;
+    background-image: url(./ipad\ notebook.jpg);
+    flex-grow: 1;
     height: 490px;
     overflow: hidden;
     background-position: center;
   }
 
   .scroll4-3 {
-    background-image: url(./ipadipad.jpg);
-    flex: 1;
+    background-image: url(./ipad4-3.jpg);
+    flex-grow: 1;
     height: 490px;
     overflow: hidden;
     background-position: center;
   }
 
   .scroll4-4 {
-    background-image: url(./ipadipad.jpg);
-    flex: 1;
+    background-image: url(./ipad4-4.jpg);
+    flex-grow: 1;
     height: 490px;
     overflow: hidden;
     background-position: center;
   }
 
   .scroll4-5 {
-    background-image: url(./ipadipad.jpg);
-    flex: 1;
+    background-image: url(./ipad\ emoji.png);
+    flex-grow: 1;
     height: 490px;
     overflow: hidden;
     background-position: center;
   }
 
   .scroll4-6 {
-    background-image: url(./ipadipad.jpg);
-    flex: 1;
+    background-image: url(./ipad4-6.jpg);
+    flex-grow: 1;
     height: 490px;
     overflow: hidden;
     background-position: center;
+  }
+  .scrollipadtext {
+    display: none;
+  }
+  .rainbow {
+    display: none;
+  }
+  .onlyipad4-1 {
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 30px;
+    gap: 10px;
+  }
+  .ipd4-1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+  }
+  .ipd4-1-2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+  .onlyipad4-2 {
+    flex-direction: column;
+    display: flex;
+    padding-top: 40px;
+    gap: 16px;
+  }
+  .ipd4-2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .ipd4-2-2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .scroll1texts4-2 {
+    display: none;
+  }
+  .scroll4-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: ;
+  }
+  .scroll1texts4-3 {
+    display: none;
+  }
+  .scroll1texts4-4 {
+    display: none;
+  }
+  .onlyipad4-3 {
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+  .ipd4-3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .ipd4-3-2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .onlyipad4-4 {
+    flex-direction: column;
+    display: flex;
+    gap: 4px;
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding-top: 40px;
+  }
+  .ipd4-4 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+  }
+  .ipd4-4-2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    line-height: 25px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .titleset4-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+    display: flex;
+    gap: 4px;
+    align-self: center;
+  }
+  .logo {
+    width: 22px;
+    height: 27px;
+  }
+
+  .watchtext {
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 28px;
+    line-height: 100%;
+    color: black;
+  }
+
+  .series {
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 2px;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    color: black;
+  }
+
+  .onlyipad4-5 {
+    flex-direction: column;
+    display: flex;
+    gap: 13px;
+    justify-content: flex-start;
+    align-self: flex-start;
+    padding-top: 30px;
+  }
+  .ipd4-5 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+  }
+  .ipd4-5-2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .scroll1texts4-5 {
+    display: none;
+  }
+  .onlyipad4-6 {
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-self: center;
+    padding-top: 30px;
+  }
+  .ipd4-6 {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+  }
+  .ipd4-6-2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .scroll1texts4-6 {
+    display: none;
+  }
+  .menu {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 48;
+    height: 48;
+    opacity: 0.8;
   }
 }
