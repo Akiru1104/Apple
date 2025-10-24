@@ -68,6 +68,9 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  padding-left: 140px;
+  padding-bottom: 50px;
+  flex-shrink: 0;
 }
 .rainbow-bg {
   margin-bottom: 80px;
@@ -125,6 +128,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .color {
@@ -189,12 +193,12 @@ body {
 }
 
 .scroll1 {
-  width: 1920px;
+  width: 1640px;
   height: 558px;
   gap: 24px;
   display: flex;
   flex-shrink: 0;
-  overflow-y: scroll;
+  overflow-x: scroll;
 }
 
 .rainbowtexts {
@@ -297,18 +301,21 @@ body {
   background-position: center;
   background-size: cover;
   display: flex;
+  flex-shrink: 0;
 }
 .iwatch {
   background-image: url(./2\ iwatch.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
+  flex-shrink: 0;
 }
 .ipad {
   background-image: url(./2\ ipad\ .jpg);
   background-position: center;
   background-size: cover;
   display: flex;
+  flex-shrink: 0;
 }
 
 .imac {
@@ -316,6 +323,7 @@ body {
   background-position: center;
   background-size: cover;
   display: flex;
+  flex-shrink: 0;
 }
 
 .personalization {
@@ -515,7 +523,7 @@ body {
 .scroll3-cards-container {
   display: flex;
   gap: 20px;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 .only {
   width: 100%;
@@ -538,6 +546,7 @@ body {
   background-image: url(o1.jpg);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 
 .card1text {
@@ -557,6 +566,7 @@ body {
   border-radius: 18px;
   box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
   background-color: white;
+  flex-shrink: 0;
 }
 
 .card2texts {
@@ -595,6 +605,7 @@ body {
   background-image: url(o2.jpg);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 .card3text1 {
   font-family: "Inter", sans-serif;
@@ -626,6 +637,7 @@ body {
   background-image: url(o3.jpg);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 
 .experince {
@@ -639,7 +651,9 @@ body {
   padding-top: 60px;
   gap: 24px;
   flex-shrink: 0;
+  overflow-y: hidden;
 }
+
 .none {
   display: flex;
   flex-direction: column;
@@ -653,6 +667,7 @@ body {
   background-image: url(./z1.jpg);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 
 .z1text1 {
@@ -697,6 +712,7 @@ body {
   background-image: url(./z2.png);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 .z2text1 {
   font-family: "Inter", sans-serif;
@@ -736,6 +752,7 @@ body {
   background-image: url(./z3.jpg);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 .z3text {
   font-family: "Inter", sans-serif;
@@ -757,6 +774,7 @@ body {
   background-image: url(./z4.jpg);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 .z4text1 {
   font-family: "Inter", sans-serif;
@@ -809,6 +827,7 @@ body {
   background-image: url(./x1.png);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 .x1text1 {
   font-family: "Inter", sans-serif;
@@ -852,6 +871,7 @@ body {
   background-image: url(./x2.jpg);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 .x2text1 {
   font-family: "Inter", sans-serif;
@@ -884,6 +904,7 @@ body {
   background-image: url(./x3.jpg);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 .x3text1 {
   font-family: "Inter", sans-serif;
@@ -916,6 +937,7 @@ body {
   background-image: url(./x4.jpg);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 .x4text1 {
   font-family: "Inter", sans-serif;
@@ -948,6 +970,7 @@ body {
   background-image: url(./x5.jpg);
   background-position: center;
   background-size: cover;
+  flex-shrink: 0;
 }
 .x5text1 {
   font-family: "Inter", sans-serif;
@@ -1026,6 +1049,7 @@ body {
   border-radius: 999px;
   border-width: 1px;
   border: 1px solid rgba(29, 29, 31, 1);
+  flex-shrink: 0;
 }
 .order {
   width: 125px;
